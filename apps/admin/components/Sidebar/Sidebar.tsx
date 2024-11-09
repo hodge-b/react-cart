@@ -1,6 +1,9 @@
+import { cn } from "@repo/shared-utils";
+import { sidebarVariance } from "./Sidebar.variance";
+
 const Sidebar = () => {
   return (
-    <div className="w-full bg-red-500">
+    <div className={cn(sidebarVariance())}>
       <h2>Sidebar Component</h2>
     </div>
   );
