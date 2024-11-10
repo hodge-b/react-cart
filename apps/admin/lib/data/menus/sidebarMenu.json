@@ -2,6 +2,11 @@
   "data": [
     {
       "id": "1",
+      "label": "Dashboard",
+      "link": "/"
+    },
+    {
+      "id": "2",
       "label": "Customers",
       "link": null,
       "subMenu": [
@@ -18,7 +23,7 @@
       ]
     },
     {
-      "id": "2",
+      "id": "3",
       "label": "Products",
       "link": null,
       "subMenu": [
@@ -35,7 +40,7 @@
       ]
     },
     {
-      "id": "3",
+      "id": "4",
       "label": "Orders",
       "link": null,
       "subMenu": [
@@ -52,7 +57,7 @@
       ]
     },
     {
-      "id": "4",
+      "id": "5",
       "label": "Promotions",
       "link": null,
       "subMenu": [
@@ -69,7 +74,7 @@
       ]
     },
     {
-      "id": "5",
+      "id": "6",
       "label": "Analytics",
       "link": null,
       "subMenu": [

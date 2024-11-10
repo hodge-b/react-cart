@@ -5,5 +5,5 @@ export interface MenuItem {
 }
 
 export interface SidebarMenu extends MenuItem {
-  subMenu: MenuItem[];
+  subMenu?: MenuItem[];
 }

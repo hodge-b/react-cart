@@ -20,23 +20,25 @@ const Sidebar = forwardRef<HTMLDivElement, SidebarProps>(({ menu }, ref) => {
 
   useEffect(() => {
     const menuContent = menu.map((item) => {
-      const subMenuContent = item.subMenu.map((subItem) => (
-        <SidebarMenuButton
-          key={subItem.id}
-          label={subItem.label}
-          href={subItem.link ?? undefined}
-          id="sub-menu-item"
-          isSubMenuItem
-        />
-      ));
+      const subMenuContent =
+        item?.subMenu &&
+        item.subMenu.map((subItem) => (
+          <SidebarMenuButton
+            key={subItem.id}
+            label={subItem.label}
+            href={subItem.link ?? undefined}
+            id="sub-menu-item"
+            isSubMenuItem
+          />
+        ));
 
       return (
         <SidebarMenuButton
           key={item.id}
           label={item.label}
           href={item.link ?? undefined}
-          id="sub-menu"
-          isSubMenu
+          id={item?.subMenu !== undefined ? "sub-menu" : "menu-item"}
+          isSubMenu={item?.subMenu !== undefined}
         >
           <SidebarSubMenu>{subMenuContent}</SidebarSubMenu>
         </SidebarMenuButton>
