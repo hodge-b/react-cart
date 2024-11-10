@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "label": "Customers",
+      "link": null,
+      "subMenu": [
+        {
+          "id": "1",
+          "label": "Overview",
+          "link": "/customers"
+        },
+        {
+          "id": "2",
+          "label": "Add Customer",
+          "link": "/customers/add-customer"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "label": "Products",
+      "link": null,
+      "subMenu": [
+        {
+          "id": "1",
+          "label": "Overview",
+          "link": "/products"
+        },
+        {
+          "id": "2",
+          "label": "Add Product",
+          "link": "/products/add-product"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "label": "Orders",
+      "link": null,
+      "subMenu": [
+        {
+          "id": "1",
+          "label": "Overview",
+          "link": "/orders"
+        },
+        {
+          "id": "2",
+          "label": "Add Order",
+          "link": "/orders/add-order"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "label": "Promotions",
+      "link": null,
+      "subMenu": [
+        {
+          "id": "1",
+          "label": "Overview",
+          "link": "/promotions"
+        },
+        {
+          "id": "2",
+          "label": "Add Promotion",
+          "link": "/promotions/add-promotion"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "label": "Analytics",
+      "link": null,
+      "subMenu": [
+        {
+          "id": "1",
+          "label": "Overview",
+          "link": "/analytics"
+        }
+      ]
+    }
+  ]
+}
